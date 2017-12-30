@@ -1,0 +1,59 @@
+<html>
+<head>
+<script>
+function validateForm(){
+var x=document.form["myForm"]["fname"].value;
+if(x==""){
+alert("name must be filled out");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form action="#" name="Sign In">
+<table cellpadding="4" width="50" bgcolor="#ff0000" align="center"
+cellpadding="4">
+
+<tr>
+<td colspan=4>
+<center><font size=4><b> Sign In</b></font></center>
+</td>
+
+<tr>
+<td> Name</td>
+<td><input type=text name=fname id="fname" size="30"></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td>confirm password</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td>phone number</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+
+<tr>
+<td><input type="button" value="Sign In" onclick="alert('sign in')"></td>
+<td><input type="button" value="Create an accont" onclick="alert('Welcome!!!!!!')"></td>
+
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
